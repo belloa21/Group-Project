@@ -7,10 +7,14 @@ import random
 
 prizes = ["a_new_car", "a_trip_to_the_bahamas", "a_banana", "$25,000", "a_years_supply_of_gummy_bears"]
 
-trivia_questions = ["", "", "", "4", "5"]
+trivia_questions = ["Do bears roar?", "Are all cats evil?", "Are cars faster than planes?", "Can chickens fly?", "Is Lichtman a good teacher?"]
 
 
 def play_game():
+    for question in trivia_questions:
+        answer = input("Answer Y for yes or N for no. >>")
+        if answer == 'Y' or 'y'
+
     pick = random.choice(trivia_questions)
     print(pick)
 
