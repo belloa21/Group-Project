@@ -16,6 +16,9 @@ def play_game():
         if answer == 'Y' or 'y':
             print("Correct!! Here is your prize!")
             pick_prize()
+        else:
+            if answer == 'N' or 'n':
+                print("Wrong answer, you suck at this!")
     pick = random.choice(trivia_questions)
     print(pick)
 
