@@ -13,8 +13,9 @@ trivia_questions = ["Do bears roar?", "Are all cats evil?", "Are cars faster tha
 def play_game():
     for question in trivia_questions:
         answer = input("Answer Y for yes or N for no. >>")
-        if answer == 'Y' or 'y'
-
+        if answer == 'Y' or 'y':
+            print("Correct!! Here is your prize!")
+            pick_prize()
     pick = random.choice(trivia_questions)
     print(pick)
 
