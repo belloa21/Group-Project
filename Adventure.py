@@ -55,4 +55,10 @@ def pick_prize():
     print(random.choice(prizes))
 
 
-play_game()
+play_again = True
+while play_again:
+    play_game()
+    print("Do you want to play again?")
+    if input() == 'n':
+        break
+
